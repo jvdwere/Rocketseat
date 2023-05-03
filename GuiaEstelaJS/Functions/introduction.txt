@@ -1,0 +1,49 @@
+> functions são um tipo de estrutura de dado.
+
+> Tem como seu intuito a reciclagem e agrupamento de codigo.
+    > com uma function vc podera reutilizar todo o codigo q a ela imposta e/ou
+    organizar o seu codigo dando significado a um bloco q executa uma determinada 
+    tarefa facilitando a leitura e compreencao.  
+
+> Estrutura
+    > A estrutura da function é composta por uma palavra chave, reservada 
+    pelo sistema (function), em seguida uma nome declarativo que pode 
+    ser qualquer palavar que o desenvolvedor deseja usar (atentar para 
+    functions especificas q possuem nome padrões adotados pela 
+    comunidade afim facilitar a leitura e compeencao do seu codigo por ourtos 
+    desenvolvedores), ainda no nome declarativo temos q adicionar um 
+    par de () como no exempo abaixo, e dps um par de {}, cada um para um 
+    uso especifico. 
+    Atentar para a ortografia pois o JavaScript e caseSenctive, significa 
+    q faz diferenca entre maiusculas e minusculas, e tbm a acentuacoes, e no 
+    caso do nome declarativo ter mais de uma palavra, ele nao pode ser 
+    escito com espaço, deve ser feito como no exemplo 
+
+        > Exemplo 1
+            function nameDeclarative() {
+                console.log("Hellou World")
+            }
+
+            > Lembra q eu comentei sobre padroes da comunidade? Aqui podemos 
+            ver um deles, ao declarar um nome q possua mais de uma palavra, 
+            as palavaras seguntes devem ser escritas com a primeira letra em 
+            maisculo.
+            De sempre preferencias para ultilizar nomes em ingles, afim de 
+            padronizar, organizar e economizar caracteres na hora de escrever 
+            seus codigos.
+
+    > Ok, voce ja declarou a sua function e ja atribuiu um codigo a ela,
+    porem ela ainda nao esta funcionando, pq??
+    Fazer uma function q execute uma determinda tarefa nao é como apenas
+    digitar o codigo daquela tarefa, no exempo, se colocarmos aquele 
+    console.log fora da function ele prontamente ira funcionar, perem, 
+    como se trata de uma functon vc preciza chama-la em algum lugar
+
+         > Exemplo 2
+                function helloWorld() {
+                    console.log("Hello World")
+                }
+
+                helloWorld()
+        
+        > Agr todas as vezes q vc chamar a function ela sera executada
