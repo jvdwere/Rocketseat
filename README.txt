@@ -1,6 +1,6 @@
 
 
-    Atenção este curso está completo no site da RocketSeat, 
+    Atenção este curso está completo no site da Rocketseat, 
 na aba Dicovery > Fundamentar > Guia Estelar de JavaScript (modulo 11),
 necessita apenas de um cadastro.
 

@@ -46,6 +46,13 @@
                     console.log("Hello World")
                 }
 
-                helloWorld()
+                helloWorld() <- isso é chamar a função 
         
-        > Agr todas as vezes q vc chamar a function ela sera executada
+        > Agr todas as vezes q vc chamar a function ela sera executada.
+        > Isso acontece pq quando o JavaScript le a sua funcao ele apenas armazena 
+            o codigo do escopo para q seja executado em outro momento, no momento q
+            vc determinar, no momentoem q vc chamar.
+        > Lembrando q o JS le o teu codigo de cima pra baixo, sendo assim sempre
+            declare suas funcões antes de chama-las. Regras de escopo tambem devem ser
+            respeitadas
+            
