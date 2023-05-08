@@ -1,3 +1,5 @@
+
+
 > functions são um tipo de estrutura de dado.
 
 > Tem como seu intuito a reciclagem e agrupamento de codigo.
