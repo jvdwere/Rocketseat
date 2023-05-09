@@ -19,7 +19,7 @@ console.log(copo)
 
         Sendo assim o meu console.log(copo) me mosta oq tem dentro do copo.
 
-    Dessa vez passei duas Strengs como argumento, q serão concatenadas na frase q eu determinei em return.
+    Dessa vez passei duas Strings como argumento, q serão concatenadas na frase q eu determinei em return.
 
 
     É quase como se o JS tivesse escrito pra mim dentro do escopo da funcao assim
@@ -27,5 +27,5 @@ console.log(copo)
                     let fruta1 = 'Morango'
                     let fruta2 = 'Acerola' 
                     
-        (Como se!!). Variaveis e propriedades nao sao a msm coisa.
+        COMO SE!!! Variaveis e propriedades nao sao a msm coisa.
  */
