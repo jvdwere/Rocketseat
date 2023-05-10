@@ -19,7 +19,16 @@
     Atentar para a ortografia, pois o JavaScript e case sensitive, significa 
     que faz diferença entre maiúsculas e minusculas, e também a acentuações, e no 
     caso do nome declarativo ter mais de uma palavra, ele não pode ser 
-    escrito com espaço, deve ser feito como no exemplo 
+    escrito com espaço, deve ser feito como no exemplo
+
+> Parenteses() e chaves{} na function
+    Em uma function as parenteses que vai após o nome é usado para passar parâmetros
+     que recebem argumentos que serão utilizados na regra criada dentro do escopo.
+    As chaves da function criam um escopo que vai armazenar todo o conjunto de regras
+     que for criado dentro dele, podem ser variáveis, outras functions, eventos, laços
+     de repetição e etc., Ou seja, qualquer tipo de regra que você criaria no escopo mãe, você pode 
+     criar dentro do escopo da function
+     
 
         > Exemplo 1
             function nameDeclarative() {

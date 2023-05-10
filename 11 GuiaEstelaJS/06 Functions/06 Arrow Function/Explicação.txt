@@ -1,5 +1,5 @@
-Temos um tipo de funcao chamda function expression, q 
-basicamente une uma funcao a uma variavel.
+Temos um tipo de função chamada function expression, que 
+basicamente une uma função a uma variável.
 
     Exemplo 1
 
@@ -10,9 +10,9 @@ basicamente une uma funcao a uma variavel.
         }
         console.log(meuNome())
 
-O modo de usar é o msm de uma funcao normal. Geralmente essa variavel 
- vira com o atributo const, e a functin pode ter o msm nome da variavel,
- ou, melhor ainda, nem precisa ter nome, como no exemplo abaixo.
+O modo de usar é o mesmo de uma função normal. Geralmente essa variável 
+ vira com o atributo const, e a function pode ter o mesmo nome da variável,
+ ou melhor ainda, nem precisa ter nome, como no exemplo abaixo.
 
     Exemplo 2
 
@@ -23,10 +23,10 @@ O modo de usar é o msm de uma funcao normal. Geralmente essa variavel
         }
         console.log(meuNome())
 
-    Este caso se chama funcao anonima - function anonymous.
+    Este caso se chama função anonima - function anonymous.
 
-É ai q entra o uso das Arrow Functions, pois para q aja um codigo mais
- simples de ser lido e digitado, substituimos as estruturas anteriores por
+É aí que entra o uso das Arrow Functions, pois para haver um código mais
+ simples de ser lido e digitado, substituímos as estruturas anteriores por
 
     Exemplo 3
 
@@ -40,5 +40,5 @@ O modo de usar é o msm de uma funcao normal. Geralmente essa variavel
 
                 Arrow function      = () => {}
 
-O a meneira de usar é a mesma de uma fuction comum, porem, vc deve respeitar as
+A maneira de usar é a mesma de uma function comum, porem, você deve respeitar as
  regras de Hoisting.

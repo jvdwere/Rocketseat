@@ -1,10 +1,10 @@
-imagine que sempre, em volta de todo o seu cogigo ha um par de {} (chaves), 
- sim vc nao  as ve, porem elas estao abraçando todo o seu codigo. 
+Imagine que sempre, em volta de todo o seu código ha um par de {} (chaves), 
+ sim, você não as vê, porem elas estão abraçando todo o seu código. 
  Este é o "Escopo Mãe".
 
     Exemplo 1
 
-    { Escopo Mãe
+    {Escopo Mãe
 
 
 
@@ -12,21 +12,21 @@ imagine que sempre, em volta de todo o seu cogigo ha um par de {} (chaves),
 
 
 
-        }
+      }
 
 
 
     Escopo Mãe }
 
-Voce nao ve na pratica as chaves da linha 7 e 19, esse é o escopo mãe.
- Quando eu crio uma funcao, necessariamente eu crio outro escopo, dentro 
- do escopo mãe, vamos chamar de "Escopo Filho", q tbm é representado por 
- chaves. Temos q nos atentar para regras de escopo na hora de cirar nossas
- regras e funcoes. Por exemplo, todas as variaveis q eu criar no escopo Mãe
- podem ser usadas no escopo filho, porem o contrario nao acontece. (Observação 1)
+Você não as vê na prática as chaves da linha 7 e 19, esse é o escopo mãe.
+ Quando eu crio uma função, necessariamente eu crio outro escopo, dentro 
+ do escopo mãe, vamos chamar de "Escopo Filho", que também é representado por 
+ chaves. Temos que nos atentar para regras de escopo na hora de criar nossas
+ regras e funções. Por exemplo, todas as variáveis que eu criar no escopo Mãe
+ podem ser usadas no escopo filho, porem o contrário não acontece. (Observação 1)
 
 Exemplo 2
-{ Escopo Mãe
+{Escopo Mãe
 
     var model
 
@@ -40,22 +40,22 @@ Exemplo 2
 
 Escopo Mãe }
 
-Neste caso os console.log da linha 38 e 39 irao mostrar a msm coisa "Ferrari". pq eu 
- criei uma variavel e dentro da funcao atribui um valor a ela, porem o console.log 
- da linha 37 ira me retornar undefined, pq ate q a minha funcao faca o trabalho dela
- de atribuicao a minha variavel model nao tera um valor definido, lembrando q para 
+Neste caso os console.log da linha 38 e 39 irão mostrar a mesma coisa "Ferrari". Porque eu 
+ criei uma variável e dentro da função atribui um valor a ela, porem o console.log 
+ da linha 37 ira me retornar undefined, porque até que a minha função faca o trabalho dela
+ de atribuição a minha variável model não tera um valor definido, lembrando que para 
  uma function funcionar ela precisa ser chamada e eu faco isso apenas na linha 37, 
- dai sim a partir desse momente a minha variavel passa a ter um valor definido.
+ dai, sim, a partir desse momento a minha variável passa a ter um valor definido.
 
 
-Ok, essa primeira parte foi. Agora vejamos como isso ira funcionar no caso  de 
- criarmos uma propriedade com o mesmo nome na funcao.
+Ok, essa primeira parte foi. Agora vejamos como isso ira funcionar no caso de 
+ criarmos uma propriedade com o mesmo nome na função.
 
 
 Exemplo 3
 { Escopo Mãe
 
-    var model = "Lamborgin"
+    var model = "lamborghini"
     
         function myCar(model){
             model = "Ferrari"
@@ -68,34 +68,34 @@ Exemplo 3
 
 Escopo Mãe }
 
-Dessa vez tera um resultado diferente, Pq eu tenho uma variavel model e uma propriedade 
- model sendo assim o resultado dos console.log seram respectivamente:
-  "Lamborgine"
+Dessa vez tera um resultado diferente, Porque eu tenho uma variável model e uma propriedade 
+ model sendo assim o resultado dos console.log serão respectivamente:
+  "lamborghini"
   "Ferrari"
-  "Lamborgine"
-Observe q no escopo mae eu ja defini o valor da variavel model "Lamborgine", e na 
- funcao eu apenas crio uma propriedade model q passa a existir apenas dentro dela,
- entao eu tbm atribuo um valor a essa propriedade, "Ferrari", e retorno model.
-Em nenhum momento a function myCar altera ou atribue um novo valor a varavel model,
- pq myCar possue uma propriedade, algo q é so dela, porem quando ela nao possue essa
- propriedade ela busca no escopo acima, no Escopo mãe uma variavel para usar. 
+  "lamborghini"
+Observe que no escopo mãe eu já defini o valor da variável model "lamborghini", e na 
+ função eu apenas crio uma propriedade model que passa a existir apenas dentro dela,
+ então eu também atribuo um valor a essa propriedade, "Ferrari", e retorno model.
+Em nenhum momento a function myCar altera ou atribui um novo valor a varável model,
+ porque myCar possui uma propriedade, algo que é só dela, porem quando ela não possui essa
+ propriedade ela busca no escopo acima, no Escopo mãe uma variável para usar. 
 
 
 
- --> Observação 1
+ -→ Observação 1
 
-      Cuidado caso nao exita uma variavel no escopo mae, a funcao ira criar uma nova
-       variavel com o msm nome sem qqr atributo ou regra a valer tanto no escopo da 
-       funcao qunato no escopo mae, e isso é ruim, se a intecao for criar uma 
-       variavel sempre devesse usar os atrubutos var - let ou const, para evitar 
+      Cuidado caso não exita uma variável no escopo mãe, a função ira criar uma nova
+       variável com o mesmo nome sem qualquer atributo ou regra vai valer tanto no escopo da 
+       função quando no escopo mãe, e isso é ruim, se a intenção for criar uma 
+       variável sempre devesse usar os atributos var - let ou const, para evitar 
        erros.
 
         Exemplo incorreto
 
             {Escopo Mãe
             
-                Function myCar(){     <- nao ha propriedade
-                    model = "Ferrari"  <- variavel sem atributo
+                Function myCar(){     <- não ha propriedade
+                    model = "Ferrari"  <- variável sem atributo
                 }
             
             Escopo Mãe} 
@@ -114,9 +114,8 @@ Em nenhum momento a function myCar altera ou atribue um novo valor a varavel mod
             <2>
             {Escopo Mãe
             
-                Function myCar(){     <- nao ha propriedade
-                let model = "Ferrari"  <- variavel sendo criada e recebendo um valor
+                Function myCar(){     <- não ha propriedade
+                let model = "Ferrari"  <- variável sendo criada e recebendo um valor
                 }
             
             Escopo Mãe} 
-

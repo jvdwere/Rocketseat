@@ -1,5 +1,5 @@
-Funcoes construtoras sao utilizadas para retornar um object em uma variavel, e possuem
- uma estrutura propria.
+Funções construtoras são utilizadas para retornar um object em uma variável, e possuem
+ uma estrutura própria.
 
     Exemplo 1
 
@@ -8,13 +8,13 @@ Funcoes construtoras sao utilizadas para retornar um object em uma variavel, e p
         }
         const joao = new User
 
-    A principio tudo normal ne? Aqui podemos ver um padrao da comunidade, Funcoes
-     construtoras sao declaradas com a primeira letra em maiusculo User() podendo
-     ser qqr nome q faca sentido em seu uso. Na variavel joao é usado uma exprecao,
-     new, e é exatame isso q torna a funcao User() uma funcao construtora, e ela vai
-     criar um objeto e salvar na variavel joao. Dentro da function, temos uma palavra
-     chave chamda this (linha 7) esse this, dentro da function vai se referir a 
-     variavel joao, podendo assim ser moldado a estrutura do object
+    A princípio tudo normal né? Aqui podemos ver um padrão da comunidade, Funções
+     construtoras são declaradas com a primeira letra em maiúsculo User() podendo
+     ser qualquer nome que faça sentido em seu uso. Na variável joao é usado uma expressão,
+     new, e é exatamente isso que torna a função User() uma função construtora, e ela vai
+     criar um objeto e salvar na variável joao. Dentro da function, temos uma palavra
+     chave chamada this (linha 7) esse this, dentro da function vai se referir a 
+     variável joao, podendo assim ser moldado a estrutura do object
 
 
     Exemplo 2 
@@ -26,7 +26,7 @@ Funcoes construtoras sao utilizadas para retornar um object em uma variavel, e p
         const joao = new User("Joao Victor",24)
         console.log(joao)
     
-    Podemos tbm usar function em nosso object
+    Podemos também usar function em nosso object
 
     Exemplo 3 
 

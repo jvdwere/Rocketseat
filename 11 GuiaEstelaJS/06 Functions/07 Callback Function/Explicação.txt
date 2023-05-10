@@ -1,8 +1,8 @@
-Callback em ingles significa chamar de volta.
+Callback em inglês significa chamar de volta.
 
-Como ja sitado antes, funcoes sao um tipo de dado, isso significa que uma funcao pode
- pode ser passada para dentro de outra, Callback nada mais é do que uma funcao dentro 
- de outra como parametro. veja a segunte estrutura.
+Como já citado antes, funções são um tipo de dado, isso significa que uma função pode
+ pode ser passada para dentro de outra, Callback nada mais é do que uma função dentro 
+ de outra como parâmetro. Veja a seguinte estrutura.
 
     Exemplo JS-1 isso é uma Callback
          
@@ -16,14 +16,14 @@ Como ja sitado antes, funcoes sao um tipo de dado, isso significa que uma funcao
 
         carros(() => {console.log("Ferrari")})
 
-    Eu vou chamar uma funcao e "chamar outra de volta".
-    compare com essa outra estrutura
+    Eu vou chamar uma função e "chamar outra de volta".
+    Compare com essa outra estrutura
     
-        Exemplo JS-2 isso nao é uma Callback
+        Exemplo JS-2 isso não é uma Callback
         
             function carros(modelo) {
 
-                console.log('anter de ter um carro')
+                console.log('antes de ter um carro')
 
                 function modelo() {
                     console.log("Ferrari")
@@ -40,7 +40,7 @@ O JavaScript executa o código sequencialmente em uma ordem de cima para baixo. 
  depois que algo acontece e de modo não sequencial. Isso é chamado de programação 
  assíncrona.
 
-Callbacks garantem que uma função não seja executada antes que uma tarefa seja 
+Callbacks garantem que uma função não seja executada antes que uma tarefa, seja 
  concluída, mas logo depois dessa tarefa ser concluída. Elas nos ajudam a desenvolver
  código JavaScript assíncrono e evitam que tenhamos problemas e erros.
 
@@ -48,21 +48,20 @@ Em JavaScript, o jeito de criar uma função de callback é passá-la como um pa
  para outra função, chamando-a novamente em seguida, logo depois que algo aconteça ou 
  que alguma tarefa seja concluída.
 
-Callbacks nao precisam necessariamente ser arrow functions, apesar de ser mais comum
- encontralas assim.
+Callbacks não precisam necessariamente ser arrow functions, apesar de ser mais comum
+ encontrá-las assim.
 
-Callbacks tambem sao ultilizadas com eventos.
+Callbacks também são utilizadas com eventos.
   
 Eventos:
     JavaScript é uma linguagem de programação orientada a eventos. Nós também usamos 
      funções de callback para declarações de eventos. Por exemplo, digamos que 
-     queremos que os usuários cliquem em um botão e eu determinei q alguma funcao 
-     seja chamda a partir dissa interacao, pra isso temos o evento:
+     queremos que os usuários cliquem em um botão e eu determinei que alguma função 
+     seja chamada a partir dessa interação, para isso temos o evento:
 
        onclik(()=>{
         console.log("Hello Word")
        })
     
-    Porem isso envolve componetes html e nao veremos isso agora
-
+    Porem isso envolve componentes html e não veremos isso agora
 

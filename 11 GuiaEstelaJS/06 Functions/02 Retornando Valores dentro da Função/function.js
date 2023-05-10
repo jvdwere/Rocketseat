@@ -14,26 +14,26 @@ console.log(divi(dividendo, divisor))
 
 
 /* 
-    Como no execicio anterior, com outro Operador Aritimetico agora, fiz a estrutura basica 
-     de uma funcao, porem adicionei uma variavel result q vai representar o resultado da 
-     operacao entre o parametro1 e parametro2. Agora com um return q faz com q o seja retornado 
+    Como no execício anterior, com outro Operador Aritmético agora, fiz a estrutura básica 
+     de uma função, porem adicionei uma variável result que vai representar o resultado da 
+     operação entre o parâmetro1 e parâmetro2. Agora com um return que faz com que o seja retornado 
      o valor de result na hora da execução.
 
-    Veja que interessante, na linha 6, ao invez de result receber apenas a operacao eu tbm adicionei
-     uma mensagem q deixa tudo mais claro. Basicamente pedi para q me mostrasse o valor dos parametros
-     e dps o resultado da o peracao, tendo assim uma resposta mais completa de legal de ser lida  
+    Veja que interessante, na linha 6, ao invés de result receber apenas a operação eu também adicionei
+     uma mensagem que deixa tudo mais claro. Basicamente pedi para me mostrar o valor dos parâmetros
+     e depois o resultado dá operação, tendo assim uma resposta mais completa de legal de ser lida  
 
-    Como de costume a funcao precisa ser chamada, e podemos observar isso no console.log da 
-     linha 13 onde a funcao é chamada e tbm é passado pra ela dois argumentos. 
-     Tambem, a fim de organizacao e de, propriamente, se parecer mais com uma tarefa
-     real, foi criado duas variaveis para receber os valores a serem operados, porem ainda 
+    Como de costume a função precisa ser chamada, e podemos observar isso no console.log da 
+     linha 13 onde a função é chamada e também é passado para ela dois argumentos. 
+     Também, a fim de organização e de, propriamente, se parecer mais com uma tarefa
+     real, foi criado duas variáveis para receber os valores a serem operados, porem ainda 
      iremos ver o seu resultado apenas no console 
 
-    Assim como os parametros a variavel result so exite dentro do escopo da funcao divi. vale observar
-     que para q assim seja deve ser colocado o atrivuto let - var ou const, nao averia quebras no codigo se a 
-     variavel fosse crianda sem um desse atributos, porem poderia causar graves erros, pois se assim 
-     fosse feito aquela variavel, no nosso caso result, passaria a exitir no escopo mae tbm, e no
-     caso de um codigo mais complexo poderia ocasionar muitos problemas, sendo assim, sempre crie variaveis
-     com var - let ou const, cada qual para seu uso especifico  
+    Assim como os parâmetros a variável result só exite dentro do escopo da função divi. Vale observar
+     que para que assim seja deve ser colocado o atributo let - var ou const, não haveria quebras no código se a 
+     variável fosse criada sem um desses atributos, porem poderia causar graves erros, pois se assim 
+     fosse feito aquela variável, no nosso caso result, passaria a existir no escopo mãe também, e no
+     caso de um código mais complexo poderia ocasionar muitos problemas, sendo assim, sempre crie variáveis
+     com var - let ou const cada qual para seu uso específico  
 */
 

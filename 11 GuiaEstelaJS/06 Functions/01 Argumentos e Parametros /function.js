@@ -1,26 +1,26 @@
 
-// Criando funcao para somar
+// Criando function para somar
 
-function soma(parametro1, parametro2) {
+function soma(parâmetro1, parâmetro2) {
 
-    console.log(parametro1 + parametro2)
+    console.log(parâmetro1 + parâmetro2)
 
-}                                           // entre os parenteses da funcao
-                                            // declaramos dois parametros - parametrys
-                                            // a ele serao atribuidos valores mais tarde  
+}                                           /* Entre os parenteses da função
+                                                declaramos dois parâmetros - parametrys
+                                                a eles serão atribuídos valores mais tarde */
 soma(1, 2)              
-                                         /* Na linha 11 eu estou definindo quais valores serao atribuidos 
-                                             respectivamente nos parametros declarados. esse valores sao 
-                                             chamados de Argumentos. Sendo assim parametro1 recebera 1 e 
-                                             parametro2 recebera 2. Os parametros podem ter qqr nome (desde 
-                                             que faça sentido) e qqr valor.
+                                         /* Na linha 11 eu estou definindo quais valores serão atribuídos 
+                                             respectivamente nos parâmetros declarados. Esses valores são 
+                                             chamados de Argumentos. Sendo assim parâmetro1 recebera 1 e 
+                                             parâmetro2 recebera 2. Os parâmetros podem ter qualquer nome (desde 
+                                             que faça sentido) e qualquer valor.
 
-                                             o parametro1 e parametro2 só existirá dentro do escopo da funçao soma. 
+                                             o parâmetro1 e parâmetro2 só existirá dentro do escopo da função soma. 
 
 
-  Resumindo criamos uma funcao chamada soma q recebe dois parametros,
-    em seu escopo adicionamos uma tarefa de soma para ser execurada no 
-    console, para isso utilixamos o Oprador Aratimetico +, em segida 
-    invocamos a funcao atribuindo dois valores do tipo Number aos parametros */
+  Resumindo criamos uma função chamada soma que recebe dois parâmetros,
+    em seu escopo adicionamos uma tarefa de soma para ser executada no 
+    console, para isso utilizamos o Operador Aritmético +, em seguida 
+    invocamos a função atribuindo dois valores do tipo Number aos parâmetros */
 
     /* Todo texto em verde é ignorado pelo JS, pois se trata apenas de comentarios */

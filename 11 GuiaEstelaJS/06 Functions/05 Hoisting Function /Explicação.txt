@@ -1,6 +1,6 @@
-O como ja vimos antes, em variaveis, em Functions o Hoisting ocorre, quando a funcao
- é chamada antes de ser criada, entao essa function sofre, digamos q, uma elevacao
- podendo assim ser compreendida pelo JS msm tendo sua ordem invertida,
+O como já vimos antes, em variáveis, em Functions o Hoisting ocorre, quando a função
+ é chamada antes de ser criada, então essa function sofre, digamos que, uma elevação
+ podendo assim ser compreendida pelo JS mesmo tendo sua ordem invertida,
  
     Exemplo 1 
 
@@ -11,14 +11,14 @@ O como ja vimos antes, em variaveis, em Functions o Hoisting ocorre, quando a fu
             console.log("Santos FC")
         }
 
-    Entao basicamente oq acontece é, COMO SE! o js pegasse essa function e jogasse 
+    Entao basicamente oque acontece é, COMO SE! o JS pegasse essa function e jogasse 
      para cima da chamada, e seguindo eu curso normal.
  
 Atentar para estrutura utilizada, por function do tipo expression, pois esse tipo de
- function nao sofrem esse Hoisting.
+ function não sofrem esse Hoisting.
 
 
-    Exemplo 2 Onde nao aconteceo Hoisting
+    Exemplo 2 Onde não acontece o Hoisting
 
         melhorDoMundo()
 
@@ -28,6 +28,6 @@ Atentar para estrutura utilizada, por function do tipo expression, pois esse tip
 
         }
 
-    Neste caso o Hoisting nao acontece e a function nao é executada pois é como se o
-     JS apenas a varaivel melhorDoMundo e nao a arrow function q nela ha (qqr estrutura
-     de function do tipo expression nao sofre Hoisting) 
+    Neste caso o Hoisting não acontece e a function não é executada, pois é como se o
+     JS apenas elevasse a variável melhorDoMundo e não a arrow function que nela ha (qualquer estrutura
+     de function do tipo expression não sofre Hoisting) 
