@@ -1,0 +1,68 @@
+Callback em ingles significa chamar de volta.
+
+Como ja sitado antes, funcoes sao um tipo de dado, isso significa que uma funcao pode
+ pode ser passada para dentro de outra, Callback nada mais é do que uma funcao dentro 
+ de outra como parametro. veja a segunte estrutura.
+
+    Exemplo JS-1 isso é uma Callback
+         
+         function carros(modelo) {
+
+            console.log('antes de ter um carro')
+            modelo()
+            console.log('agora tenho um carro')
+        
+        }
+
+        carros(() => {console.log("Ferrari")})
+
+    Eu vou chamar uma funcao e "chamar outra de volta".
+    compare com essa outra estrutura
+    
+        Exemplo JS-2 isso nao é uma Callback
+        
+            function carros(modelo) {
+
+                console.log('anter de ter um carro')
+
+                function modelo() {
+                    console.log("Ferrari")
+                    }
+
+                modelo()
+
+                console.log('agora tenho um carro')
+            }
+            carros()
+
+O JavaScript executa o código sequencialmente em uma ordem de cima para baixo. No 
+ entanto, existem alguns casos em que o código é executado (ou deve ser executado) 
+ depois que algo acontece e de modo não sequencial. Isso é chamado de programação 
+ assíncrona.
+
+Callbacks garantem que uma função não seja executada antes que uma tarefa seja 
+ concluída, mas logo depois dessa tarefa ser concluída. Elas nos ajudam a desenvolver
+ código JavaScript assíncrono e evitam que tenhamos problemas e erros.
+
+Em JavaScript, o jeito de criar uma função de callback é passá-la como um parâmetro 
+ para outra função, chamando-a novamente em seguida, logo depois que algo aconteça ou 
+ que alguma tarefa seja concluída.
+
+Callbacks nao precisam necessariamente ser arrow functions, apesar de ser mais comum
+ encontralas assim.
+
+Callbacks tambem sao ultilizadas com eventos.
+  
+Eventos:
+    JavaScript é uma linguagem de programação orientada a eventos. Nós também usamos 
+     funções de callback para declarações de eventos. Por exemplo, digamos que 
+     queremos que os usuários cliquem em um botão e eu determinei q alguma funcao 
+     seja chamda a partir dissa interacao, pra isso temos o evento:
+
+       onclik(()=>{
+        console.log("Hello Word")
+       })
+    
+    Porem isso envolve componetes html e nao veremos isso agora
+
+

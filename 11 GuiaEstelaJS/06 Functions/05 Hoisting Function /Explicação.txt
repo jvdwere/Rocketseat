@@ -1,0 +1,33 @@
+O como ja vimos antes, em variaveis, em Functions o Hoisting ocorre, quando a funcao
+ é chamada antes de ser criada, entao essa function sofre, digamos q, uma elevacao
+ podendo assim ser compreendida pelo JS msm tendo sua ordem invertida,
+ 
+    Exemplo 1 
+
+        melhorDoMundo()
+
+        function melhorDoMundo(){
+
+            console.log("Santos FC")
+        }
+
+    Entao basicamente oq acontece é, COMO SE! o js pegasse essa function e jogasse 
+     para cima da chamada, e seguindo eu curso normal.
+ 
+Atentar para estrutura utilizada, por function do tipo expression, pois esse tipo de
+ function nao sofrem esse Hoisting.
+
+
+    Exemplo 2 Onde nao aconteceo Hoisting
+
+        melhorDoMundo()
+
+        const = melhorDoMundo = () => {
+            
+            console.log("Santos FC")
+
+        }
+
+    Neste caso o Hoisting nao acontece e a function nao é executada pois é como se o
+     JS apenas a varaivel melhorDoMundo e nao a arrow function q nela ha (qqr estrutura
+     de function do tipo expression nao sofre Hoisting) 

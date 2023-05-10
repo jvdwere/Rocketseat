@@ -1,0 +1,44 @@
+Temos um tipo de funcao chamda function expression, q 
+basicamente une uma funcao a uma variavel.
+
+    Exemplo 1
+
+        const myName = function myName(meuNome){
+
+            meuNome = "Joao"
+            return meuNome
+        }
+        console.log(meuNome())
+
+O modo de usar é o msm de uma funcao normal. Geralmente essa variavel 
+ vira com o atributo const, e a functin pode ter o msm nome da variavel,
+ ou, melhor ainda, nem precisa ter nome, como no exemplo abaixo.
+
+    Exemplo 2
+
+        const myName = function(meuNome){
+
+            meuNome = "Joao"
+            return meuNome
+        }
+        console.log(meuNome())
+
+    Este caso se chama funcao anonima - function anonymous.
+
+É ai q entra o uso das Arrow Functions, pois para q aja um codigo mais
+ simples de ser lido e digitado, substituimos as estruturas anteriores por
+
+    Exemplo 3
+
+        const myName = (meuNome) => {
+
+            meuNome = "Joao"
+            return meuNome
+        }
+        console.log(meuNome())
+
+
+                Arrow function      = () => {}
+
+O a meneira de usar é a mesma de uma fuction comum, porem, vc deve respeitar as
+ regras de Hoisting.
