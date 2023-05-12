@@ -6,7 +6,7 @@
 
 ## Considerações iniciais
 
-O intuito dessa documentação é guiar um iniciante não só em javascript, mas também em programação no geral, por isso vários conceitos são introduzidos desde sua mais forma básica até a forma em usada em aplicações reais, a fim de ter uma compreensão maior do que aquela função faz, para que ela serve, quais outras formas alternativas teria para executar a mesma logica desejada.
+O intuito dessa documentação é guiar um iniciante não só em javascript, mas também em programação no geral, por isso vários conceitos são introduzidos desde sua mais forma básica até a forma que é realmente usada nas mais diversas aplicações, a fim de ter uma compreensão maior do que aquela função faz, para que ela serve, quais outras formas alternativas teria para executar a mesma logica desejada.
 
 Todo esse estudo está sendo feito baseado nos conhecimentos adquiridos por mim durante o meu próprio aprendizado, não passa de um método de aprendizado diferente, que para mim funciona. Resolvi deixar aberto dodo essa documentação para que, talvez, ajude outras pessoas, também irei disponibilizar todas as fontes dos conteúdos e temas tratados, tanto nesse README quanto nos momentos que forem assim tratados.
 
