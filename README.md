@@ -1,6 +1,6 @@
 # Super Study Javascript
 
-  Tambem conhecido como JS, o Javascript é uma linguagem de programação leve para paginas Web, mas tambem é utilizada em varios outros ambientes fora dos navegadores.
+  Também conhecido como JS, o Javascript é uma linguagem de programação leve para páginas Web, mas também é utilizada em vários outros ambientes fora dos navegadores.
 
    Leia mais em <https://developer.mozilla.org/pt-BR/docs/conflicting/Web/>
 
@@ -12,7 +12,11 @@ Todo esse estudo está sendo feito baseado nos conhecimentos adquiridos por mim 
 
 Eu sendo apena um iniciante em tudo isso claro pode, sim, haver erros, farei de tudo para não subir informações incorretas, peço desde já que se notar algo errado ou mesmo correto porem com uma informação rasa, por favor entre em contato e contribua também com o aprendizado de outras pessoas.
 
-## Instalação
+## Importante
+
+ A explicação está fragmentada, cada módulo possui um arquivo README ou um arquivo explanation. É de suma importância que cada um desses arquivos de texto seja consumido a medida com que forem apresentados.
+
+### Instalação
 
 Clone o Projeto
 
@@ -21,3 +25,21 @@ Clone o Projeto
 ```
 
  Pronto, agora é só ir em seu editor de codigo e abrir a pasta do projeto.
+
+#### Requisitos iniciais
+
+* Apreder a usar o Visual Studio Code (ou outro editor de codigo de sua preferencia).
+* aprender a navegar no terminal seja:
+  * Windows: CMD ou Powershell, Gitbash (recomendo Gitbash)
+  * LinuxOS: Terminal ou Gitbash
+  * MacOS: Terminal ou Gitbash
+
+  Git Bash -> <https://git-scm.com/downloads>
+  Visual Studio Code -> <https://code.visualstudio.com/>
+* Criar e alimentar repositorios no github
+
+##### Curso JavaScript
+
+* Atenção a estrutura dessa documentacao foi baseada no curso Guia EStelar JS da Rocketseat, e esta disponivel gratuiramente, na aba Dicovery > Fundamentar > Guia Estelar de JavaScript (modulo 11), necessita apenas de um cadastro.
+    <https://app.rocketseat.com.br/>
+* É um curso 100% gratuito, e todas essas anotações foram feitas com base em minha própria compreensão e estudo, a fim de, propriamente estudar e, talvez ajudar outros que tambem buscam o conhecimento e aprofundamento na linguagem.
