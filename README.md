@@ -16,17 +16,7 @@ Eu sendo apena um iniciante em tudo isso, sim, podem haver erros, farei de tudo 
 
  A explicação está fragmentada, cada módulo possui um arquivo README ou um arquivo explanation. É de suma importância que cada um desses arquivos de texto seja consumido a medida com que forem apresentados.
 
-### Instalação
-
-Clone o Projeto
-
-```bash
-  git clone git@github.com:jvdwere/SuperStudyJS.git
-```
-
- Pronto, agora é só ir em seu editor de codigo e abrir a pasta do projeto.
-
-#### Requisitos iniciais
+### Requisitos iniciais
 
 * Apreder a usar o Visual Studio Code (ou outro editor de codigo de sua preferencia).
 * aprender a navegar no terminal seja:
@@ -36,10 +26,20 @@ Clone o Projeto
 
   Git Bash -> <https://git-scm.com/downloads>
   Visual Studio Code -> <https://code.visualstudio.com/>
-* Criar e alimentar repositorios no github
+* Aprender Clonar, Criar e Alimentar repositorios no github
+
+#### Instalação
+
+Clone o Projeto
+
+```bash
+  git clone git@github.com:jvdwere/SuperStudyJS.git
+```
+
+ Pronto, agora é só ir em seu editor de codigo e abrir a pasta do projeto.
 
 ##### Curso JavaScript
 
 * Atenção a estrutura dessa documentacao foi baseada no curso Guia EStelar JS da Rocketseat, e esta disponivel gratuiramente, na aba Dicovery > Fundamentar > Guia Estelar de JavaScript (modulo 11), necessita apenas de um cadastro.
     <https://app.rocketseat.com.br/>
-* É um curso 100% gratuito, e todas essas anotações foram feitas com base em minha própria compreensão e estudo, a fim de, propriamente estudar e, talvez ajudar outros que tambem buscam o conhecimento e aprofundamento na linguagem.
+* É um curso 100% gratuito, e todas essas anotações foram feitas com base em minha própria compreensão e estudo, a fim de, propriamente estudar e, talvez ajudar outros que tambem buscam o conhecimento e aprofundamento na linguagem
