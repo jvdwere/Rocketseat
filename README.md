@@ -16,7 +16,7 @@ Eu sendo apena um iniciante em tudo isso, sim, podem haver erros, farei de tudo 
 
  A explicação está fragmentada, cada módulo possui um arquivo README ou um arquivo explanation. É de suma importância que cada um desses arquivos de texto seja consumido a medida com que forem apresentados.
 
-### Requisitos iniciais
+## Requisitos iniciais
 
 * Apreder a usar o Visual Studio Code (ou outro editor de codigo de sua preferencia).
 * aprender a navegar no terminal seja:
@@ -28,7 +28,7 @@ Eu sendo apena um iniciante em tudo isso, sim, podem haver erros, farei de tudo 
   Visual Studio Code -> <https://code.visualstudio.com/>
 * Aprender Clonar, Criar e Alimentar repositorios no github
 
-#### Instalação
+## Instalação
 
 Clone o Projeto
 
@@ -40,7 +40,7 @@ Copie e cole o comando abaixo em seu terminal. nao esqueça de navegar ate a pas
 
  Pronto, agora é só ir em seu editor de codigo e abrir a pasta do projeto.
 
-##### Curso JavaScript
+## Curso JavaScript
 
 * Atenção a estrutura dessa documentacao foi baseada no curso Guia EStelar JS da Rocketseat, e esta disponivel gratuiramente, na aba Dicovery > Fundamentar > Guia Estelar de JavaScript (modulo 11), necessita apenas de um cadastro.
     <https://app.rocketseat.com.br/>

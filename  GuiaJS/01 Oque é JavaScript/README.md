@@ -26,7 +26,7 @@
 * Quase 98% da web usa javaScript
   <https://www.locaweb.com.br/blog/temas/codigo-aberto/o-que-e-javascript/#:~:text=O%20JavaScript%20%C3%A9%20uma%20linguagem,mundo%20no%20desenvolvimento%20front%2Dend.>
 
-### Desmistificando
+## Desmistificando
 
 * Para aprender JS:
 
@@ -45,7 +45,7 @@
   * Quando a frase começa assim eu já sei que não vira nada de produtivo, pois cada qual tem o seu uso, suas vantagens, desvantagens, área de e atuação, etc. Fala que a linguagem X é ruim pro cara que esta ganhando 15k/mês trabalhando com ela...
     * claro que existem linguagens mais fáceis, ou com o mercado maior, ou uma área de atuação mais vasta, ou mais nova, ou mais antiga, tudo depende do oque você espera daquilo e a onde você quer chegar.
 
-#### Como estudar
+## Como estudar
 
  Para aprender qualquer linguagem a prática e a revisão são muito importante, na verdade, para qualquer coisa na vida é assim.
  Na internet você pode encontrar facilmente cursos de 5 10 20 50 100 ou 150 horas sobre JavaScript, e sim é de assustar o quão profundo pode ser, porem se pensarmos pelo lado de outras coisas que fazemos e aprendemos, JavaScript não é muito diferente, afinal:
