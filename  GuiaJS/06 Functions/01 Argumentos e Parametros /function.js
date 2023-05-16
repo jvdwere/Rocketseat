@@ -8,7 +8,7 @@ function soma(parâmetro1, parâmetro2) {
 }                                           /* Entre os parenteses da função
                                                 declaramos dois parâmetros - parametrys
                                                 a eles serão atribuídos valores mais tarde */
-soma(1, 2)              
+soma(5, 7)              
                                          /* Na linha 11 eu estou definindo quais valores serão atribuídos 
                                              respectivamente nos parâmetros declarados. Esses valores são 
                                              chamados de Argumentos. Sendo assim parâmetro1 recebera 1 e 
