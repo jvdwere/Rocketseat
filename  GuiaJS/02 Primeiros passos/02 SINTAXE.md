@@ -26,3 +26,4 @@ Antes de irmos a fundo nisso, basicamente o que esse comando faz é mostrar algu
   * consolelog("hello world!") → Falta o ponto entre o objeto console e a função log
   * console. log("hello world!") → não pode haver espaço
   * E N outros erros que poderia digitar a tarde inteira. A questão é, não adianta estressar, o JS só vai fazer exatamente aquilo que você mandar da forma correta, ,(Virgula) é diferente de .(ponto) e assim por diante.
+  
