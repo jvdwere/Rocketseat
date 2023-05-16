@@ -10,7 +10,7 @@ O intuito dessa documentação é guiar um iniciante não só em javascript, mas
 
 Todo esse estudo está sendo feito baseado nos conhecimentos adquiridos por mim durante o meu próprio aprendizado, não passa de um método de aprendizado diferente, que para mim funciona. Resolvi deixar aberto toda essa documentação para que, talvez, ajude outras pessoas, também irei disponibilizar todas as fontes dos conteúdos e temas tratados, tanto nesse README quanto nos momentos que forem assim tratados.
 
-Eu sendo apena um iniciante em tudo isso podem, sim, haver erros, farei de tudo para não subir informações incorretas, peço desde já que se notar algo errado ou mesmo correto porem com uma informação rasa, por favor entre em contato e contribua também com o aprendizado de outras pessoas.
+Eu sendo apena um iniciante em tudo isso, sim, podem haver erros, farei de tudo para não subir informações incorretas, peço desde já que se notar algo errado ou mesmo correto porem com uma informação rasa, por favor entre em contato e contribua também com o aprendizado de outras pessoas.
 
 ## Importante
 
