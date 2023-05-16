@@ -1,8 +1,11 @@
 # Dicionario
 
-    Algumas palavras e exprossoes tem um significa especifico, q nem sempre voce deve traduzir ao pe da   letra do Ingles para o Portugues
+ Algumas palavras e expressões tem um significado específico, que nem sempre você deve traduzir literalmente do inglês para o português
 
-    * Script -> Conjunto de regras
-    
-    * Sintaxe -> Voce ira se deparar com essa palavra em todas as linguagens que estudar, seja JS, Python, C++ etc. E isso acontece pq "sintaxe" se refere diretamente a estrutura do codigo, por exemplo, quando falarem que ha um problema de sintaxe significa q ha um probela na estutura do codigo, desde a ortografia ate alguma ordem ou regra de escopo nao respeitada.
-    * 
+* Script → Conjunto de regras
+
+* Sintaxe → Você ira se deparar com essa palavra em todas as linguagens que estudar, seja JS, Python, C++, etc. E isso acontece porque "sintaxe" se refere diretamente a estrutura do código, por exemplo, quando falarem que ha um problema de sintaxe significa que ha um problema na estrutura do código, desde a ortografia até alguma ordem ou regra de escopo não respeitada.
+
+* Front-end →
+
+* Back-end →

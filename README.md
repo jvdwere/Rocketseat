@@ -32,6 +32,8 @@ Eu sendo apena um iniciante em tudo isso, sim, podem haver erros, farei de tudo 
 
 Clone o Projeto
 
+Copie e cole o comando abaixo em seu terminal. nao esqueça de navegar ate a pasta que deseja instalar o projeto.
+
 ```bash
   git clone git@github.com:jvdwere/SuperStudyJS.git
 ```
