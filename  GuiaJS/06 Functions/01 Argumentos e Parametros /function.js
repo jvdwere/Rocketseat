@@ -2,7 +2,7 @@
 // Criando function para somar
 
 function soma(parâmetro1, parâmetro2) {
-
+    
     console.log(parâmetro1 + parâmetro2)
 
 }                                           /* Entre os parenteses da função
