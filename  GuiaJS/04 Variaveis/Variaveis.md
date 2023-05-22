@@ -298,4 +298,3 @@ Outra informação que deve ser acrescentada é que caso eu queira reatribuir um
         Neste caso não estou reatribuindo apenas criei uma variável com o mesmo nome. A variável onde do Escopo Mãe não é a mesma do Escopo 5
 
 ### Conclusao
-
