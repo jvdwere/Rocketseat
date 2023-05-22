@@ -1,0 +1,20 @@
+<script>
+  //Escopo Mãe
+  let onde = "ok";
+
+  {
+    {
+      {
+        {
+          {
+            //Escopo 5
+            onde = "Escopo 5";
+            console.log(onde);
+          }
+        }
+      }
+    }
+  }
+  onde = "Escopo Mãe";
+  console.log(onde)
+</script>

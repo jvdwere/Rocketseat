@@ -9,3 +9,7 @@
 * Front-end →
 
 * Back-end →
+
+* JS -> JavaScript -> Linguagem de Programacao
+
+*
