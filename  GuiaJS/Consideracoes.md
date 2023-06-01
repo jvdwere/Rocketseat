@@ -41,11 +41,10 @@
     * acho que nem preciso falar nada, já é uma imbecilidade explicita.
 
 * A melhor linguagem é...:
-
   * Quando a frase começa assim eu já sei que não vira nada de produtivo, pois cada qual tem o seu uso, suas vantagens, desvantagens, área de e atuação, etc. Fala que a linguagem X é ruim pro cara que esta ganhando 15k/mês trabalhando com ela...
-    * claro que existem linguagens mais fáceis, ou com o mercado maior, ou uma área de atuação mais vasta, ou mais nova, ou mais antiga, tudo depende do oque você espera daquilo e a onde você quer chegar.
+    * claro que existem linguagens mais fáceis, ou com o mercado maior, ou uma área de atuação mais vasta, ou mais moderna, ou mais antiga, tudo depende do que você espera daquilo e a onde você quer chegar.
 
-## Como estudar
+## O estudo
 
  Para aprender qualquer linguagem a prática e a revisão são muito importante, na verdade, para qualquer coisa na vida é assim.
  Na internet você pode encontrar facilmente cursos de 5 10 20 50 100 ou 150 horas sobre JavaScript, e sim é de assustar o quão profundo pode ser, porem se pensarmos pelo lado de outras coisas que fazemos e aprendemos, JavaScript não é muito diferente, afinal:
@@ -67,9 +66,32 @@ A programação é um universo, e se faz necessário que você esteja o mais env
 
 Se acostume com a leitura de documentações porque isso você fara sempre, e é muito importante que você de adéque a esse modelo, a documentação sera literalmente a sua bíblia sagrada da programação.
 
-## E Quanto as IAs
+## E quanto as IAs
 
 Vemos uma acensão das inteligências Artificiais e isso causa uma comoção negativa por parte de quem está estudando, e várias questões são levantadas:
   Por que continuar estudando se as IAs vão roubar o meu emprego?
   Como competir com algo que não se cansa e não tem dias ruins?
 E muitas outras questões além dessas, a minha opinião é que o impacto dessas tecnologias podem sim até ser negativas, porem temos qualidades que as IAs jamais chegarão a ter, a nossa percepção situacional e a nossa própria humanidade nos permite ter uma visão e criatividade necessária para executar tarefas que as IAs não são capazes, o impacto sera negativo para os programadores "robóticos", porque as IAs iram assumir a parte bruta do código, mas ainda havendo necessidade de correções e para corrigir você tera que ter um bom conhecimento na área pode ser que um trabalho de 20 horas dure 7, por exemplo, por isso o conhecimento que deve ser buscado é uma compreensão dos "porquês" da linguagem, só assim sera possível nos diferenciar e ter destaque no mercado de trabalho.
+
+## Links
+
+### Estudo
+
+* Rocketseat
+  * Site <https://app.rocketseat.com.br> varios cursos gratuitos.
+  * Canal <https://www.youtube.com/@rocketseat>
+
+* Guanabara
+  * Site <https://www.cursoemvideo.com> varios cursos gratuitos.
+  * Canal <https://www.youtube.com/@CursoemVideo>
+  * PlayList de JS Basico <https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1>
+
+### Estilo de vida Dev
+
+* Devsacreditar
+  * Canal <https://www.youtube.com/@devsacreditar>
+
+* Filipe Deschamps
+  * Canal <https://www.youtube.com/@FilipeDeschamps>
+
+Dividi os links por temas, porem os canais tratam de varios temas diferentes.
